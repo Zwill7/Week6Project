@@ -125,7 +125,7 @@ class DOMManager {
             </div><br>`
             );
             for (let team of player.teams) {
-                $(`#${player._id}`).find('a.card.body').append(
+                $(`#${player._id}`).find('.card.body').append(
                     `<p>
                     <span id="name-${team._id}"><strong>Name: </strong> ${team.name}</span>
                     <span id="conference-${team._id}"<strong>Conference: </strong> ${team.conference}</span>
